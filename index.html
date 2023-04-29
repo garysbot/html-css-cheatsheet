@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/Users/g/Library/Mobile Documents/com~apple~CloudDocs/Projects/html-css-cheatsheet-starting/resources/css/styles.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    
+        <title>Gary's Ultimate HTML & CSS Cheat Sheet</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <ul>
+                <li><h2>Gary's Ultimate HTML & CSS Cheat Sheet</h2></li>
+                <li><h1>Build Build Build</h1></li>
+            </ul>
+        </div>
+
+        <div class="cheatsheet">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#document-standards">Document Standards</a></li>
+                <li><a href="#css-fundamentals">CSS Fundamentals</a></li>
+                <li><a href="#css-setup">CSS Setup and Syntax</a></li>
+                <li><a href="#box-model">The Box Model</a></li>
+                <li><a href="#layouts">Layouts</a></li>
+                <li><a href="#fonts">Custom Fonts</a></li>
+            </ul>
+
+            <div id="document-standards">
+                <h1>Document Standards</h1>
+                <p>There's a few helpful document standards that are required for every HTML page. <br>Below will remind you of what they are so you don't forget to put them in your code.</p>
+                <table>
+                    <thead>
+                        <th>Code</th>
+                        <th>Explanation</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="code">
+                                &lt!DOCTYPE HTML&gt
+                            </td>
+                            <td>
+                                Finally lol. This tells the web browser it's HTML.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="code">
+                                &lt;html&gt;&lt;/html&gt;
+                            </td>
+                            <td>
+                                Necessary to contain all the code.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="code">
+                                &lthead&gt&lt/head&gt
+                            </td>
+                            <td>
+                                CSS, scripts, title, metadata goes in here.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="code">
+                                &ltbody&gt&lt/body&gt
+                            </td>
+                            <td>
+                                Main content portion of your HTML.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="code">
+                                &ltdiv <strong>id="id-example"</strong>&gt<br>
+                                &ltdiv <strong>class="class-example"</strong>&gt
+                            </td>
+                            <td>
+                                Attributes that make organizing and styling easier.
+                                <br>
+                                IDs are one-off. Classes are reusable.
+                            </td>
+                        </tr>
+                            
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="css-setup">
+                <h1>CSS Setup and Syntax</h1>
+                <p>Pointing to a CSS file requires the below code added to the <strong style="color: #d98494;">&lthead&gt</strong> of an HTML file to link out to a CSS file</p>
+                <div class="code-block">
+                    <pre>
+                        <code>
+                            &ltlink href="style.css" rel="stylesheet"&gt
+                        </code>
+                    </pre>
+                </div>  
+            </div>
+
+            <div id="css-fundamentals">
+                <h1>CSS Fundamentals</h1>
+                <p>CSS, cascading style sheets, is a programming language used to style the HTML content on a webpage.</p>
+                <div class="code-block">
+                    <pre>
+                        <code>
+                            p {
+                                border-color: #ffffff;
+                                border-style: solid;
+                                font-family: monospace;
+                            }
+                        </code>>
+                    </pre>
+                </div>
+                <ul>
+                    <li><strong>Selector:</strong> The beginning of the ruleset used to target the element that will be styled.</li>
+                    <li><strong>Declaration Block:</strong> The code in-between (and including) the curly braces (`{ }`) that contains the CSS declaration(s).</li>
+                    <li><strong>Declaration: </strong>The group name for a property and value pair that applies a style to the selected element.</li>
+                    <li><strong>Property: </strong>The first part of the declaration that signifies what visual characteristic of the element is to be modified.</li>
+                    <li><strong>Value: </strong>The second part of the declaration that signifies the value of the property.</li>
+                </ul>
+            </div>
+
+            <div id="box-model">
+                <h1>The Box Model</h1>
+                <p>Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.</p>
+            </div>
+
+            <div id="layouts">
+                <h1>Layouts</h1>
+                <p>Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.</p>
+            </div>
+
+            <div id="fonts">
+                <h1>Custom Fonts</h1>
+                <p>Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.Lorem ipsum. Lorem ipsum.</p>
+            </div>
+
+        </div>
+
+        
+
+    </body>
+    
+</html>
